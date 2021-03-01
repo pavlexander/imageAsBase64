@@ -25,4 +25,5 @@ The value will contain a valid `markdown` image format.
 
 - if you assign a hook to `F1` button, then some programs could mess up with the script. For example `Chrome` will corrupt the automation script.
 - we cannot unfortunatelly use `GetAsyncKeyState` method. Windows Defender flags the `powershell` script as a trojan and removes the file.
-- to exit the script you have to press `CTRL+C` plus any additional button.
+- to exit the script you have to press `CTRL+C` plus any additional button
+- after the image is pasted - clipboard's content will be the latest content set by the script (*not much of an issue, but a feature*)
