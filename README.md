@@ -21,6 +21,8 @@ The value will contain a valid `markdown` image format.
 
 *Edit the source code for it to suit your needs.*
 
+Referencd in: [github](https://github.com/yzhang-gh/vscode-markdown/issues/798)
+
 #### Known problems
 
 - if you assign a hook to `F1` button, then some programs could mess up with the script. For example `Chrome` will corrupt the automation script.
