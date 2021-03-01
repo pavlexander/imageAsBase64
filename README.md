@@ -13,6 +13,8 @@ We have means of making this functionality in either an `AutoHotkey` or `Powersh
 
 ### 1. `Powershell` global keyboard hook
 
+![gif](./res/imageToMarkdownB64.gif)
+
 The script is listening for key-presses. In default implementaion - once `pause` key press is detected - the script will try to extract the `raw` image from the clipboard, and, if the image is found - it will set the value of the clipboard to `base64` string and execute `CTRL+V` command to paste the contents into currently active window.
 
 The value will contain a valid `markdown` image format.
